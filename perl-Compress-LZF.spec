@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Compress
-%define	pnam	LZF
+%define		pdir	Compress
+%define		pnam	LZF
 Summary:	Compress::LZF Perl module - extremely leight-weight Lev-Zimpel-Free compression
 Summary(pl):	Modu³ Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
 Name:		perl-Compress-LZF
