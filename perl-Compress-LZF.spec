@@ -5,11 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Compress
 %define		pnam	LZF
+%define	_suf	b
 Summary:	Compress::LZF Perl module - extremely leight-weight Lev-Zimpel-Free compression
 Summary(pl):	Modu³ Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
 Name:		perl-Compress-LZF
 Version:	1.0
-%define	_suf	b	
 Release:	0.%{_suf}
 # same as perl
 License:	GPL v1+ or Artistic
