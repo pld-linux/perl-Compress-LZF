@@ -6,7 +6,7 @@
 %define		pdir	Compress
 %define		pnam	LZF
 Summary:	Compress::LZF Perl module - extremely leight-weight Lev-Zimpel-Free compression
-Summary(pl):	Modu³ Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
+Summary(pl.UTF-8):   ModuÅ‚ Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
 Name:		perl-Compress-LZF
 Version:	1.7
 Release:	1
@@ -28,14 +28,14 @@ repetitive data as well. The module is self-contained and very small
 be no problems incoporating this module into commercial programs. It
 is believed that it is free from any patents.
 
-%description -l pl
-LZF jest ekstremalnie szybkim (nie tak du¿o wolniejszym od memcpy)
-algorytmem kompresji. Jest idealny dla programów, które chc±
-zaoszczêdziæ *trochê* miejsca, ale nie kosztem szybko¶ci. Jest idealny
-dla powtarzaj±cych siê danych. Modu³ jest ma³y i nie wymaga ¿adnej
-dodatkowej du¿ej biblioteki. Jest wolnodostêpny, wiêc nie powinno byæ
-problemów z wykorzystaniem go w komercyjnych programach. Wed³ug
-aktualnego stanu wiedzy jest wolny od patentów.
+%description -l pl.UTF-8
+LZF jest ekstremalnie szybkim (nie tak duÅ¼o wolniejszym od memcpy)
+algorytmem kompresji. Jest idealny dla programÃ³w, ktÃ³re chcÄ…
+zaoszczÄ™dziÄ‡ *trochÄ™* miejsca, ale nie kosztem szybkoÅ›ci. Jest idealny
+dla powtarzajÄ…cych siÄ™ danych. ModuÅ‚ jest maÅ‚y i nie wymaga Å¼adnej
+dodatkowej duÅ¼ej biblioteki. Jest wolnodostÄ™pny, wiÄ™c nie powinno byÄ‡
+problemÃ³w z wykorzystaniem go w komercyjnych programach. WedÅ‚ug
+aktualnego stanu wiedzy jest wolny od patentÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
