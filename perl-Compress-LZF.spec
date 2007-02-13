@@ -6,7 +6,7 @@
 %define		pdir	Compress
 %define		pnam	LZF
 Summary:	Compress::LZF Perl module - extremely leight-weight Lev-Zimpel-Free compression
-Summary(pl.UTF-8):   Moduł Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
+Summary(pl.UTF-8):	Moduł Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
 Name:		perl-Compress-LZF
 Version:	1.7
 Release:	1
