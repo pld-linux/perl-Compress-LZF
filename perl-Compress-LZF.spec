@@ -8,13 +8,13 @@
 Summary:	Compress::LZF Perl module - extremely leight-weight Lev-Zimpel-Free compression
 Summary(pl.UTF-8):	Moduł Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
 Name:		perl-Compress-LZF
-Version:	3.41
+Version:	3.43
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	772300a58c2396f1a0680b92e69412a0
+# Source0-md5:	b9dcb1bae6dc48ec45dd370e75000c05
 URL:		http://search.cpan.org/dist/Compress-LZF/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
