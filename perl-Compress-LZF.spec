@@ -64,6 +64,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Compress/LZF.pm
 %dir %{perl_vendorarch}/auto/Compress/LZF
-%{perl_vendorarch}/auto/Compress/LZF/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Compress/LZF/*.so
 %{_mandir}/man3/Compress::LZF.3pm*
