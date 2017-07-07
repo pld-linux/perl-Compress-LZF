@@ -8,13 +8,14 @@
 Summary:	Compress::LZF Perl module - extremely leight-weight Lev-Zimpel-Free compression
 Summary(pl.UTF-8):	Moduł Perla Compress::LZF - ekstremalnie lekka kompresja Lev-Zimpel-Free
 Name:		perl-Compress-LZF
-Version:	3.43
-Release:	12
+%define	srcver	3.8
+Version:	%{srcver}0
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b9dcb1bae6dc48ec45dd370e75000c05
+Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{srcver}.tar.gz
+# Source0-md5:	c6c4c09d288fd040782eb7edfc39b015
 URL:		http://search.cpan.org/dist/Compress-LZF/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -39,7 +40,7 @@ problemów z wykorzystaniem go w komercyjnych programach. Według
 aktualnego stanu wiedzy jest wolny od patentów.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{srcver}
 
 %build
 %{__perl} Makefile.PL \
@@ -64,5 +65,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Compress/LZF.pm
 %dir %{perl_vendorarch}/auto/Compress/LZF
-%attr(755,root,root) %{perl_vendorarch}/auto/Compress/LZF/*.so
+%attr(755,root,root) %{perl_vendorarch}/auto/Compress/LZF/LZF.so
 %{_mandir}/man3/Compress::LZF.3pm*
