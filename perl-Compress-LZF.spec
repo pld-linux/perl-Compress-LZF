@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Compress/%{pdir}-%{pnam}-%{srcver}.tar.gz
 # Source0-md5:	c6c4c09d288fd040782eb7edfc39b015
-URL:		http://search.cpan.org/dist/Compress-LZF/
+URL:		https://metacpan.org/dist/Compress-LZF
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
