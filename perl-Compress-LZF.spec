@@ -9,7 +9,7 @@ Summary(pl.UTF-8):	Moduł Perla Compress::LZF - ekstremalnie lekka kompresja Lev
 Name:		perl-Compress-LZF
 %define	srcver	3.8
 Version:	%{srcver}0
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
